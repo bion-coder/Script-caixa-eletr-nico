@@ -4,7 +4,7 @@ while True:
     print("BEM VINDO AO CAIXA ELETRÔNICO")
     print('1 - Depósito')
     print("2 - Saque")
-    print("3 - Sair")
+    print("3 - Área restrita")
     print("4 - Visualizar saldo")
     acaoDesejada = int(input('Digite a opção desejada: '))
     cedulaAtual = 50
@@ -42,7 +42,7 @@ while True:
             print('Você não possui saldo suficiente')
             time.sleep(2)
     elif acaoDesejada == 3:
-        print("Obrigado, volte sempre!")
+        print("Você não tem acesso! Obrigado, volte sempre")
         time. sleep(2)
     elif acaoDesejada == 4:
         print(f'Você possui o valor de R$ {saldo} reais em sua conta')
