@@ -42,7 +42,7 @@ while True:
             print('Você não possui saldo suficiente')
             time.sleep(2)
     elif acaoDesejada == 3:
-        print("Você não tem acesso! Obrigado, volte sempre")
+        print("Sem acesso! Você será direcionado para aba inicial")
         time. sleep(2)
     elif acaoDesejada == 4:
         print(f'Você possui o valor de R$ {saldo} reais em sua conta')
